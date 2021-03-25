@@ -1,0 +1,36 @@
+main {
+	width: 500px;
+	margin: 30px auto;
+	font-family: 'Times New Roman';
+}
+h2, h3, a {
+	color: #ff3300;
+	font-weight: 200;
+}
+h2 {
+	margin: 0;
+	width: 300px;
+}
+
+small {
+	color: #775555;
+}
+
+
+div.black_rec {
+	background: linear-gradient(180deg, #444, #000);
+	color: #fff;
+	padding: 10px;
+}
+.link {
+	text-decoration: none;
+	display: block;
+	text-align: right;
+
+}
+.link:link {
+	color: grey;
+}
+.link:visited {
+	color: grey;
+}
