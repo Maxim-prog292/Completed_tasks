@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #007777;
+}
+
+main {
+	width: 700px;
+	height: 600px;
+	border: 4px solid #000;
+	margin: 40px auto;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+div#red {
+	width: 150px;
+	height: 150px;
+	background: #f00;
+	border: 4px solid #000;
+}
+div#green {
+	width: 400px;
+	height: 300px;
+	background: #0a0;
+	border: 4px solid #000;
+}
+div#blue {
+	width: 150px;
+	height: 300px;
+	background: #00a;
+	border: 4px solid #000;
+}
+div#yellow {
+	width: 400px;
+	height: 150px;
+	background: #fe0;
+	border: 4px solid #000;
+}

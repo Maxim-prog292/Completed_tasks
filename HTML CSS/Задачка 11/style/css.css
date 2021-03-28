@@ -1,0 +1,40 @@
+main {
+	width: 490px;
+	margin: auto;
+}
+
+div.code, .code, .code_overflow {
+	background: #f4f4f4;
+	padding: 6px;
+	color: #000;
+	border-radius: 3px;
+	font-size: 12px;
+}
+span.code {
+	padding: 3px;
+}
+div.code, .code_overflow {
+	margin: 15px 15px 15px 0;
+}
+.code_overflow {
+	overflow-x: scroll; 
+}
+p {
+	color: #a4a9b2;
+	font-size: 14px;
+}
+span.orange {
+	color: #ff0000;
+}
+span.green {
+	color: #00aa77;
+}
+span.blue {
+	color: #6600ff;
+}
+span.opacity {
+	opacity: 0.5
+}
+span.skyblue {
+	color: #87ceeb;
+}

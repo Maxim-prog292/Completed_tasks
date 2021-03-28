@@ -1,0 +1,16 @@
+body {
+	background: #e2dfd6;
+}
+div.fix button {
+	background: #fff;
+	padding: 5px 10px;
+	cursor: pointer;
+	position: fixed;
+	top: 50%;
+
+}
+
+div.text p {
+	padding: 20px 20px 20px 100px;
+	text-align: justify;
+}

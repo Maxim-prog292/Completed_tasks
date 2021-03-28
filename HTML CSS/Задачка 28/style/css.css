@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+main {
+	margin: 30px auto;
+	width: 800px;
+}
+div.message {
+	display: flex;
+	position: relative;
+	background: #dff7e1;
+	border: 1px solid #bee8c2;
+	border-radius: 3px;
+	padding: 5px;
+}
+div.text {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+h3 {
+	color: #1f3478;
+	margin: 0 40px;
+}
+p {
+	color: #83c677;
+	opacity: 0,5;
+	margin: 0 40px;
+}
+
+svg.close {
+	position: absolute;
+	top: 19px;
+	right: 10px;
+
+}
+svg.zamok {
+	position: absolute;
+	top: 3px;
+}

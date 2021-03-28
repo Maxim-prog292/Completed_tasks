@@ -1,0 +1,20 @@
+div	{
+	width: 275px;
+	margin: 50px auto;
+	background: #eaf0f0;
+	padding: 15px;
+}
+
+blockquote {
+	font-family: 'Times New Roman';
+	font-style: italic;
+	font-size: 30px;
+	font-weight: 600;
+	margin: 0 0 10px 0;
+}
+
+cite {
+	font-size: 22px;
+	font-style: normal;
+	color: #7ab7b9;
+}

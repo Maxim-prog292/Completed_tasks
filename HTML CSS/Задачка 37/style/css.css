@@ -1,0 +1,56 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+table {
+	width: 850px;
+	margin: auto;
+	border-spacing: 0;
+	border-top: 1px solid #ff9822;
+
+}
+tbody  td, th {
+	
+	border-bottom: 1px solid #ff9822;
+}
+thead td, tr {
+	padding: 5px 0 5px 3px;
+	vertical-align: top;
+}
+tbody td, tr {
+	padding: 5px 0 5px 3px;
+	vertical-align: top;
+}
+
+table thead .title-1 {
+	background: #fdf8e4;
+	font-weight: 700;
+}
+table thead .title-2 {
+	background: #ff9822;
+	color: #fff;
+	font-weight: 700;
+}
+span.title, .blue {
+	color: #1f83b4;
+	font-weight: 700;
+	cursor: pointer;
+}
+span.text {
+	display: none;
+}
+div:hover > span.text {
+	display: block;
+}
+
+div.wrap-table {
+	height: 500px;
+	width: 850px;
+	margin: auto;
+	padding: 30px 10px 0 10px;
+	border-left: 1px solid #ff9822;
+	border-right: 1px solid #ff9822;
+}
+
+

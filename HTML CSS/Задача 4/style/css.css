@@ -1,0 +1,25 @@
+div {
+	width: 300px;
+	margin: auto;
+}
+
+h1 {
+	color: #428c3c;
+	margin: 0;
+
+}
+
+h2 {
+	color: #5c6a2c;
+	margin: 0;
+}
+
+p {
+	text-align: justify;
+}
+
+div a {
+	display: block;
+	text-align: center;
+	font-size: 10px;
+}

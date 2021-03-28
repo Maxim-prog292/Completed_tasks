@@ -1,0 +1,18 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+div.smartPix {
+	font-size: 60px;
+	width: 570px;
+	height: 70px;
+	margin: auto;
+	text-transform: uppercase;
+	font-family: 'Times New Roman';
+	letter-spacing: 10px;
+}
+svg {
+	position: relative;
+	top: 8px;
+}

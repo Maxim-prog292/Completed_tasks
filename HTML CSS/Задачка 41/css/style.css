@@ -1,0 +1,98 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.grid {
+	border-left: 15px solid #cccccc;
+	margin: 0 auto;
+	width: 765px;
+	height: auto;
+	display: grid;
+	grid-template-columns: 265px 300px 200px;
+	grid-template-rows: 50px 50px auto auto;
+	grid-template-areas: 
+	"header header header"
+	"title-one title-one title-two"
+	"img des des"
+	". footer footer"
+}
+
+.header {
+	grid-area: header;
+	align-self: center;
+}
+.header .header-span {
+	margin: 0 10px;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.title-1 {
+	grid-area: title-one;
+
+}
+.title-1 .title-1-p {
+	margin: 0 10px;
+	line-height: 20px;
+
+}
+
+.pub, .category {
+	color: grey;
+	font-size: 14px;
+}
+.date, .blog {
+	color: grey;
+	font-weight: 700;
+}
+.fill {
+	background: grey;
+	padding: 2px 3px;
+	color: #fff;
+	border-radius: 2px;
+	text-decoration: none;
+}
+.link {
+	display: inline-block;
+	margin: 5px 0;
+	word-spacing: 10px;
+}
+
+svg {
+	vertical-align: text-top;
+}
+
+.title-2 {
+	grid-area: title-two;
+	justify-self: end;
+}
+.title-2 a {
+	color: grey;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.image {
+	grid-area: img;	
+}
+.image img {
+	margin: 0 0 0 10px;
+}
+
+.description {
+	grid-area: des;
+}
+.description p {
+	margin: 30px 0;
+	line-height: 25px;
+	color: grey;
+}
+
+.footer {
+	grid-area: footer;
+}
+.footer a {
+	text-decoration: none;
+	font-style: italic;
+}

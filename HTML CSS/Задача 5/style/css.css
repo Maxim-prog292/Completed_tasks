@@ -1,0 +1,21 @@
+div {
+	margin: auto;
+	width: 500px;
+}
+h2 {
+	color: #546a40;
+	margin-bottom: 0;
+
+}
+
+li a:link {
+	color: #9483ae; 
+}
+ul {
+	margin-top: 0;
+}
+
+div a.a {
+	display: block;
+	text-align: center;
+}

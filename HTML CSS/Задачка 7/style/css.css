@@ -1,0 +1,15 @@
+body {
+	background: #fedead;
+}
+div {
+	width: 270px;
+	text-align: justify;
+	border-left: 4px dotted blue;
+}
+p {
+	text-indent: 20px;
+	margin: 20px;
+}
+span {
+	font-weight: bold;
+}

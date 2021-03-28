@@ -1,0 +1,21 @@
+div	{
+	width: 185px;
+	text-align: center;
+	margin: auto;
+	padding: 5px 0 5px;
+	background: #eee;
+}
+a {
+	display: block;
+	background: #fff;
+	width: 150px;
+	margin: 2px auto;
+	padding: 10px;
+	text-decoration: none;
+	color: #4576b9;
+	font-weight: 800;
+}
+a:hover {
+	background: #4576b9;
+	color: #fff;
+}

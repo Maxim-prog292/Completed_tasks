@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+main {
+	width: 250px;
+}
+
+div.title {
+	background: #e1862a;
+	color: #fff;
+	padding: 5px;
+}
+
+div.code {
+	background: #1e1f21;
+	padding: 10px;
+}
+
+pre {
+	color: #fff;
+}
+span.yellow {
+	color: #fafa00;
+}
+span.blue {
+	color: #a0a;
+}
+span.orange {
+	color: #e18726;
+}

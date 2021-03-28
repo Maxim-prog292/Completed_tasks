@@ -1,0 +1,24 @@
+main {
+	display: flex;
+}
+.poligon_1 {
+	width: 1px;
+	height: 70px;
+	border: 70px solid transparent;
+	border-bottom: 70px solid green;
+	margin: 30px;
+}
+.poligon_2 {
+	width: 1px;
+	height: 0;
+	border: 100px solid transparent;
+	border-top: 200px solid green;
+	margin: 30px;
+}
+.poligon_3 {
+	width: 1px;
+	height: 70px;
+	border: 70px solid transparent;
+	border-bottom: 70px solid green;
+	margin: 30px;
+}

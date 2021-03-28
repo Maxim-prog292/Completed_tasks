@@ -1,0 +1,50 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+div.ver-list {
+	margin: 30px auto;
+	width: 230px;
+}
+li {
+	list-style: none;
+	border-bottom: 1px solid grey;
+}
+
+
+ul li p:hover {
+	color: #a6bfd1;
+	text-decoration: underline;
+}
+ul li:hover a{
+	display: block;
+	text-decoration: none;
+	color: #000;
+	margin-bottom: 7px;
+}
+ul li a {
+	display: none;
+}
+ul :last-child {
+	border: 0;
+}
+p {
+	cursor: pointer;
+	margin: 10px 10px 10px 0;
+}
+
+header {
+	text-align: right;
+	color: grey;
+}
+a.link-autor:visited {
+	text-decoration: none;
+	color: grey;
+
+}
+a.link-autor:link {
+	text-decoration: none;
+	color: grey;
+
+}
+

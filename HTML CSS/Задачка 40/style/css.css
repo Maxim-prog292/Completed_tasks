@@ -1,0 +1,53 @@
+* {padding: 0; margin: 0;}
+
+button {
+	display: block;
+	margin: 100px auto;
+	width: 170px;
+	height: 50px; 
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	background: #e3e3e3;
+	position: absolute;
+
+}
+
+button:before {
+	content: " ";
+	width: 10px;
+	height: 20px; 
+	border-left: 3px dotted #595959;
+	position: relative;
+	top: -4px;
+	left: -10px;
+
+}
+
+span {
+	font-family: 'Times New Roman';
+	font-size: 26px;
+	color: orange;
+}
+
+button:active {
+	background: #595959;
+	outline: none;
+}
+button:active:before {
+	border-color: #e3e3e3;
+	outline: none;
+}
+button:active:after {
+	content: " ";
+	border: 24px solid transparent;
+	border-left: 19px solid #595959;
+	position: absolute;
+	right: -41px;
+	top: 1px;
+	
+}
+
+button:focus {
+	outline: none;
+}
